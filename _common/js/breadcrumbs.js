@@ -2,7 +2,12 @@
  * vim: ts=3 sw=3 et wrap co=150 go-=b
  */
 
-$(updateBreadcrumbs());
+$(
+   function ()
+   {
+      updateBreadcrumbs();
+   }
+);
 
 function updateBreadcrumbs()
 {
