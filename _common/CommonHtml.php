@@ -17,9 +17,6 @@ class CommonHtml
       $html .= " <head>\n";
       $html .= "  <script src='_lib/js/jquery-3.6.1.min.js'></script>\n";
       $html .= "  <script src='_common/js/breadcrumbs.js'></script>\n";
-      $html .= "  <script>\n";
-      $html .= "const PAGE_TITLE = '" . str_replace("'", "\'", $pageTitle) . "';\n";
-      $html .= "  </script>\n";
       $html .= "  <style>\n";
       $html .= <<<CSS
 body {

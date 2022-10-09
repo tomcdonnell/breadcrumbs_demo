@@ -41,7 +41,7 @@ function updateBreadcrumbs()
 
 function addCurrentPageToBreadcrumbs()
 {
-   let pageTitleEqualsPageUrl = PAGE_TITLE + '=' + window.location.href;
+   let pageTitleEqualsPageUrl = $('h1').text() + '=' + window.location.href;
 
    if (!window.name.endsWith('|' + pageTitleEqualsPageUrl)) {
       window.name += '|' + pageTitleEqualsPageUrl;
