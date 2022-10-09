@@ -103,7 +103,6 @@ function removeLoopsFromBreadcrumbsArray(crumbs)
 
       // Find last crumb with matching pageTitle.
       for (let j = crumbs.length - 1; j > i; --j) {
-
          if (crumbs[j].pageTitle === crumb.pageTitle) {
             matchingLaterCrumb = crumbs[j];
             i = j + 1;
