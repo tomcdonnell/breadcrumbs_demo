@@ -93,6 +93,11 @@ CSS;
       $html .= "$indent <li><a href='page_3.php'>Page 3</a></li>\n";
       $html .= "$indent <li><a href='page_4.php'>Page 4</a></li>\n";
       $html .= "$indent <li><a href='page_5.php'>Page 5</a></li>\n";
+      $html .= "$indent <li><a href='page_6.php'>Page 6</a></li>\n";
+      $html .= "$indent <li><a href='page_7.php'>Page 7</a></li>\n";
+      $html .= "$indent <li><a href='page_8.php'>Page 8</a></li>\n";
+      $html .= "$indent <li><a href='page_9.php'>Page 9</a></li>\n";
+      $html .= "$indent <li><a href='page_10.php'>Page 10</a></li>\n";
       $html .= "$indent</ul>\n";
 
       return $html;
